@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Health2GPX Support</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: linear-gradient(180deg, #eef4ff 0%, var(--bg) 100%);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 32px 20px 60px;
+    }
+    .hero {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      padding: 32px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    }
+    h1, h2 { line-height: 1.2; }
+    h1 { margin: 0 0 12px; font-size: 2rem; }
+    h2 { margin-top: 0; font-size: 1.25rem; }
+    p { margin: 0 0 14px; }
+    .muted { color: var(--muted); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 18px;
+      margin-top: 22px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: 0 6px 20px rgba(0,0,0,.04);
+    }
+    ul {
+      margin: 10px 0 0 18px;
+      padding: 0;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    .footer {
+      margin-top: 28px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    .tag {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #dbeafe;
+      color: #1d4ed8;
+      font-size: .9rem;
+      margin-bottom: 14px;
+      font-weight: 600;
+    }
+    code {
+      background: #f3f4f6;
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <div class="tag">Health2GPX Support</div>
+      <h1>Export Apple Health workouts to GPX</h1>
+      <p>Health2GPX helps you export workouts from Apple Health as GPX files quickly, simply, and privately.</p>
+      <p class="muted">This app works locally on your device. No account is required.</p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Contact</h2>
+        <p>Need help, found a bug, or want to suggest a feature?</p>
+        <p>Email: <a href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></p>
+        <p class="muted">Replace this email address before publishing.</p>
+      </article>
+
+      <article class="card">
+        <h2>How it works</h2>
+        <ul>
+          <li>Open Health2GPX</li>
+          <li>Allow access to Apple Health workouts</li>
+          <li>Select a workout</li>
+          <li>Export it as a GPX file</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Troubleshooting</h2>
+        <ul>
+          <li>If no workouts appear, check Health permissions in iPhone Settings.</li>
+          <li>If export fails, try selecting a different workout and restart the app.</li>
+          <li>Make sure the selected workout contains route/location data.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Privacy</h2>
+        <p>Health2GPX does not require an account and does not upload your workout data to external servers.</p>
+        <p>Your data stays on your device unless you choose to export and share it yourself.</p>
+      </article>
+    </section>
+
+    <section class="card" style="margin-top: 18px;">
+      <h2>App Review Notes</h2>
+      <p>Health2GPX requires access to Apple Health workout data in order to export workouts as GPX files.</p>
+      <p>No login is required. All processing happens locally on the device.</p>
+    </section>
+
+    <p class="footer">© 2026 Simon Außerlechner — Health2GPX</p>
+  </div>
+</body>
+</html>
